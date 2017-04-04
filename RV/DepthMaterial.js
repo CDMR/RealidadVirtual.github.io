@@ -13,7 +13,7 @@ renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerHeight*.95, window.innerHeigth*.95);
 document.body.appendChild(renderer.domElement);
 }
-funtion loop() {
+function loop() {
   requestAnimationFrame(loop);
   
   malla.rotation.x += 0.01;
