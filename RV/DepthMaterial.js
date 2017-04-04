@@ -1,3 +1,4 @@
+funtion setup(){
 var forma = new THREE.BoxGeometry(100,100,500);
 var Material = new THREE.MeshDepthMaterial();
 malla = new THREE.Mesh(forma,material);
