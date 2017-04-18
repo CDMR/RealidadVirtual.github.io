@@ -1,8 +1,8 @@
 function setup(){
 var forma = new THREE.BoxGeometry(100,100,500);
 var material = new THREE.MeshDepthMaterial();
-malla = new THREE.Mesh(forma,material);
-
+var malla = new THREE.Mesh(forma,material);
+var luzPuntual = new THREE.PointLight(0xFFFFFF);
 escena = new THREE.Scene();
 escena.add(malla);
   escena.add(luzPuntual);
