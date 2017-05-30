@@ -4,7 +4,6 @@ var planoCercano = 1
 var planoLejano =1000;
 var camara = new THREE.PerspectiveCamera(campoVision,relacionAspecto,planoCercano,planoLejano);
 camara.position.z=10;
-camara.position.y=10;
 var geometry = new THREE.BoxGeometry( 8, 8, 1 );
 var material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
 var cubo = new THREE.Mesh( geometry, material );
