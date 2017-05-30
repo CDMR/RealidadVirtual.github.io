@@ -14,8 +14,8 @@ document.body.appendChild(renderer.domElement);
 }
 function loop() {
   requestAnimationFrame(loop);
-  malla.rotation.x += 0.01;
-  malla.rotation.y += 0.01;
+  malla.rotation.x += x * Math.PI / 90;
+  malla.rotation.y += y * Math.PI / 90;
   renderer.render(escena, camara);
   }
   var camara, escena, renderer, malla;
